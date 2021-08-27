@@ -19,7 +19,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 
-public class MyStepdefs {
+public class LabCorpStepDefinitions {
 
     public static WebDriver driver;
     String homePageWindow;
