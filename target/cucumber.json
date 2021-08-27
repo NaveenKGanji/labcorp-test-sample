@@ -1,0 +1,168 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10565140300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login into UI and Apply for the QA Test Automation Developer Position",
+        "description": "",
+        "id": "login-into-ui-and-apply-for-the-qa-test-automation-developer-position;login-into-ui-and-apply-for-the-qa-test-automation-developer-position;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1683358000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the applicant launches LabCorp and Navigate to Career Page",
+            "match": {
+              "location": "MyStepdefs.theUserLogsIntoLabCorpAndNavigateToCareerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6669667500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the applicant searches and selects the position \"QA Test Automation Developer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA Test Automation Developer\"",
+                  "offset": 48
+                }
+              ],
+              "location": "MyStepdefs.theUserSearchesAndSelectsThePosition(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213342600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the applicant verifies the below job information:",
+            "match": {
+              "location": "MyStepdefs.theUserValidatesTheBelowJobInformation(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "QA Test Automation Developer/Architect",
+                  "Durham, North Carolina",
+                  "21-87609",
+                  "Computer Engineering"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6333756000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the applicant applies for the job and confirms the following information:",
+            "match": {
+              "location": "MyStepdefs.theApplicantAppliesForTheJobAndConfirmsTheFollowingInformation(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "QA Test Automation Developer/Architect",
+                  "Durham, North Carolina",
+                  "21-87609",
+                  "40 hrs/wk"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3067175000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the applicant clicks on Return to Job Search",
+            "match": {
+              "location": "MyStepdefs.theApplicantClicksOnReturnToJobSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2397998600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the applicant is navigated to Job Search Page",
+            "match": {
+              "location": "MyStepdefs.theApplicantIsNavigatedToJobSearchPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST"
+          },
+          {
+            "name": "@UI_01"
+          },
+          {
+            "name": "@LABCORP_TEST"
+          }
+        ]
+      }
+    ],
+    "name": "Login into UI and Apply for the QA Test Automation Developer Position",
+    "description": "",
+    "id": "login-into-ui-and-apply-for-the-qa-test-automation-developer-position",
+    "keyword": "Feature",
+    "uri": "src/main/resources/features/01_Login-LapCorp.feature",
+    "tags": [
+      {
+        "name": "@TEST",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@UI_01",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@LABCORP_TEST",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
